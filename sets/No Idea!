@@ -1,0 +1,12 @@
+m,n=input().split()
+arr=input().split()
+A=set(input().split())
+B=set(input().split())
+c=0
+for i in range(int(m)):
+    if(arr[i] in A):
+     c=c+1
+    elif(arr[i] in B):
+     c=c-1
+print(c)
+
