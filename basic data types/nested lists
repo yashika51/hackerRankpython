@@ -1,0 +1,10 @@
+if __name__ == '__main__':
+    li=[]
+    for _ in range(int(input())):
+        name = input()
+        score = float(input())
+        li.append([name,score])
+    sh=sorted(list(set([marks for name,marks in li])))[1]
+    print("\n".join([a for a,b in sorted(li) if b==sh]))
+
+
