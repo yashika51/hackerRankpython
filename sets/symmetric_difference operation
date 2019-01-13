@@ -1,0 +1,9 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+n=int(input())
+s1=set(input().split())
+N=int(input())
+s2=set(input().split())
+print(int(len(s1^s2)))
+
