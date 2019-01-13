@@ -1,0 +1,10 @@
+import numpy
+
+def arrays(arr):
+    # complete this function
+    # use numpy.array
+
+    arr=numpy.array(arr,dtype=float)
+    return(arr[::-1])
+
+arr = input().strip().split(' ')
