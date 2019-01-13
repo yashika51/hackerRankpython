@@ -1,0 +1,13 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+k=int(input()) #grp no
+arr=list(map(int,input().split()))
+set1=set()
+set2=set()
+for i in arr:
+    if(i not in set1):
+        set1.add(i)
+    else:
+        set2.add(i)
+print(set1.difference(set2).pop())
+
+
