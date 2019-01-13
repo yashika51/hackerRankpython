@@ -1,0 +1,8 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+#print(len((set(input().split())).intersection((set(input().split())))))
+n=int(input())
+s1=set(map(int,input().split()))
+N=int(input())
+s2=set(map(int,input().split()))
+print(int(len(s1.intersection(s2))))
+
